@@ -1,0 +1,81 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.rg-controller-container {
+  display: flex;
+}
+
+.rg-directional {
+  background: red;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 20px;
+  border: none;
+}
+
+.rg-directional-red {
+  background: red;
+}
+
+.rg-directional-green {
+  background: green;
+}
+
+.rg-directional-yellow {
+  background: #A3A300;
+}
+
+.rg-redlight {
+  background-color: black;
+  display: flex;
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rg-greenlight {
+  background-color: black;
+  display: flex;
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rg-refactor {
+  background-color: black;
+  display: flex;
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rg-img-container {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.rg-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.rg-msg {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  text-align: center;
+}

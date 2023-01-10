@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Test Driven</title>
+  </head>
+  <body>
+    <div class="rg-container">
+      <div class="rg-controller-container">
+      <button class="rg-directional rg-directional-red rg-directional-left"><</button>
+        <div class="rg-redlight">
+            <div class="rg-img-container">
+            <img class="rg-img" src="./images/redlight.jpg" />
+            </div>
+            <div><p class="rg-msg">Create a failing test.</p></div>
+        </div>
+        <div class="rg-greenlight">
+          <div class="rg-img-container">
+            <img class="rg-img" src="./images/greenlight.jpg" />
+          </div>
+          <div><p class="rg-msg">Code. Pass the test.</p></div>
+        </div>
+        <div class="rg-refactor">
+          <div class="rg-img-container">
+            <img class="rg-img" src="./images/yellowlight.jpg" />
+          </div>
+          <div><p class="rg-msg">Refactor.</p></div>
+        </div>
+      <button class="rg-directional  rg-directional-red rg-directional-right">></button>
+      </div>
+    </div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
